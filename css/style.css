@@ -1,0 +1,212 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+body{
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.7;
+    color: #36454F;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    color: #092832;
+}
+a{
+    color: #092832;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+}
+section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.intro{
+    margin-bottom: 40px;
+}
+.intro h6{
+    font-weight: 400;
+    color: #ff4d29;
+}
+/*NAVBAR*/
+.top-nav{
+    background-color: #ff4d29;
+    color: #fff;
+    padding: 5px;
+}
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 15px;
+}
+.top-nav i,span{
+    vertical-align: middle;
+}
+.social-links a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 20px;
+}
+.social-links a:hover{
+    background-color: #fff;
+    color: #ff4d29;
+}
+.navbar{
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.08);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .navbar:active{
+    color: #ff4d29;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 25px;
+    color: #092832;
+}
+.btn{
+    padding: 9px 24px;
+}
+.btn-brand{
+    background-color: #ff4d29;
+    color: #fff !important;
+    font-weight: 700;
+    border-color: #ff4d29;
+}
+.btn-outline-light{
+    font-weight: 700;
+}
+.btn-brand:hover{
+    color: #fff;
+    background-color: #ca2c0c;
+}
+/*SLIDER*/
+.slide-1{
+    background-image: linear-gradient(rgba(9,32,50,0.4), rgba(9,32,50,0.4)),url('../img/slides/slide-1.jpg');
+}
+.slide-2{
+    background-image: linear-gradient(rgba(9,32,50,0.4), rgba(9,32,50,0.4)),url('../img/slides/slide_2.jpg');
+}
+/*Owl Carousel*/
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    margin-top: -30px !important;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 12px !important;
+    border-radius: 100px !important;
+}
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    margin-right: 0;
+    right: 0;
+}
+.owl-next:hover,
+.owl-prev:hover
+{
+    background-color: #ff4d29 !important;
+}
+
+/*Infor Box*/
+.info-box{
+    display: flex;
+    align-items: center;
+}
+.info-box i{
+    width: unset;
+    margin-right: 19px;
+}
+/*MILE STONE*/
+#milestone{
+    background-image: linear-gradient(rgba(255,77,41,0.9), rgba(255,77,41,0.9)),url('../img/slides/slide_2.jpg');
+
+}
+#milestone .display-4,
+#milestone p{
+    color: #fff;
+}
+/*SERVICES*/
+.service-box{
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+.service-box i{
+    color: #ff4d29;
+}
+.service-box h5{
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+/*OUR FLEET*/
+.car-card{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    padding-bottom: 30px;
+
+}
+.car-card h4{
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.car-card .quote{
+    padding: 9px 20px;
+    background-color: #ff4d29;
+    color: #fff;
+    border-radius: 100px;
+    text-align: center;
+    width:fit-content;
+    margin-top: 20px;
+
+}
+
+/*ABOUT*/
+/*about-hero*/
+#about-hero{
+    background-image: linear-gradient(rgba(207, 30, 30, 0.4), rgba(45, 0, 209, 0.4)),url('../img/slides/slide_2.jpg');
+}
+hr.separator{
+    position: relative;
+    border: none;
+    height: 1px;
+    background: #000;
+}
+
+/*Mission & Vision*/
+#vision-mission{
+    margin-top: -40px;
+}
+#vision-mission i{
+    color: #ff4d29;
+}
+.values{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    background-color: #f5f5f5;
+}
+
+.active{
+    color: #ff4d29;
+}
